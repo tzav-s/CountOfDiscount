@@ -11,3 +11,10 @@ for each product is given:
 value of the product. (ie the value resulting from the discount). The extra points
 calculated by the formula
 extra_points = ceil (final value / 5)
+•Get_code () function which displays the prompts for entering its password
+product, checks for valid values and whether the code value entered by the user is
+valid, then returns the password, otherwise displays an error message.
+• Function discount_percentage () which returns the discount rate, given
+product code.
+• Product_points () function which calculates and returns the corresponding points
+in a product, given the product code and price.
